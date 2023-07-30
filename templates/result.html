@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debt Calculation Result</title>
+</head>
+<body>
+    <h1>Debt Calculation Result</h1>
+    <p>Total Debt with Inflation: {{ total_debt }}</p>
+    <p>Inflation Losses: {{ inflation_losses }}</p>
+    <p>Penalty: {{ penalty }}</p>
+    <a href="{{ url_for('index') }}" class="btn btn-primary">Recalculate</a>
+</body>
+</html>
